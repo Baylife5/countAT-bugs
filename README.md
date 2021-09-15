@@ -1,4 +1,6 @@
-# countAT-bugs
+Python 3
+
+
 Practice makes us better; usually debugging makes code closer to perfect. This program is supposed to ask the user to enter a DNA sequence and then output the AT content of the sequence— total number of As and Ts divided by the sequence length—as a fraction of the total sequence length (a number between 0 and 1).  
 
 For example, given the string:  AAAATGAATGGCTAACTTTTGAA 
