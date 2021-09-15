@@ -1,0 +1,16 @@
+class dnaString (str):
+    
+    def length (self):
+        return (len(self))
+
+    def getAT (self):
+        num_A = self.count("A")
+        num_T = self.count("T")
+        return ((num_A + num_T)/ self.length() )
+
+dna = input("Enter a dna sequence: ")
+upperDNA = dna.upper()
+coolString = dnaString(upperDNA)
+
+print ("AT content = {0:0.3f}".format(coolString.getAT()))
+
